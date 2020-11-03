@@ -1,6 +1,6 @@
 module.exports = {
   printHello = () => {
-    console.log("Hello")
+    console.log("Helloo")
   },
   printName = (name) => {
     console.log(name)
