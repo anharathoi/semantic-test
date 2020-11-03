@@ -18,5 +18,5 @@ steps:
   inputs:
     command: publish
     publishRegistry: useFeed
-    publishFeed: npm-packages-test/semantic-feed
+    publishFeed: semantic-projects/semantic-feed-02
   displayName: 'Publish'

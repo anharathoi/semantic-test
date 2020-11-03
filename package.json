@@ -8,8 +8,5 @@
   },
   "author": "Anhar Athoi",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "nodemon": "^2.0.6"
-  }
+  "dependencies": {}
 }
