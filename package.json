@@ -9,7 +9,10 @@
   },
   "author": "Anhar Athoi",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/anharathoi/semantic-test.git"
@@ -18,7 +21,11 @@
     "access": "restricted"
   },
   "plugins": [
-    "semantic-release-ado"
+    "semantic-release-ado",
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/npm",
+    "@semantic-release/github"
   ],
   "release": {
     "branches": [
@@ -27,6 +34,7 @@
     ]
   },
   "devDependencies": {
+    "@semantic-release/commit-analyzer": "^8.0.1",
     "semantic-release": "^17.2.2",
     "semantic-release-ado": "^1.2.2"
   }
