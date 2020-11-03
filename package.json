@@ -1,12 +1,33 @@
 {
   "name": "@anhar/semantic-test",
-  "version": "1.0.1",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "author": "Anhar Athoi",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anharathoi/semantic-test.git"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "plugins": [
+    "semantic-release-ado"
+  ],
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
+  },
+  "devDependencies": {
+    "semantic-release": "^17.2.2",
+    "semantic-release-ado": "^1.2.2"
+  }
 }
