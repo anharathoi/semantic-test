@@ -1,3 +1,6 @@
+variables:
+- name: GitHubToken
+  value: b0fa2d546bbbc4b5de92a2b6755381d1ed132f17
 trigger:
 - main
 
