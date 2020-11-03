@@ -19,3 +19,4 @@ steps:
     command: publish
     publishRegistry: useFeed
     publishFeed: npm-packages-test/project-feed
+  displayName: 'Publish'
