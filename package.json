@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Anhar Athoi",
-  "license": "ISC"
+  "license": "ISC",
+  "plugins": [
+    "semantic-release-ado"
+  ]
 }
