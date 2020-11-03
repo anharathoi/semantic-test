@@ -21,10 +21,10 @@ steps:
   inputs:
     publishRegistry: useFeed
     publishFeed: semantic-projects/semantic-feed-02
-  - script: >
-      npx -p semantic-release
-      -p @semantic-release/git
-      -p semantic-release-ado
-      semantic-release
-    env: { GH_TOKEN: $(GitHubToken) }
-    displayName: 'Semantic release'
+- script: >
+    npx -p semantic-release
+    -p @semantic-release/git
+    -p semantic-release-ado
+    semantic-release
+  env: { GH_TOKEN: $(GitHubToken) }
+  displayName: 'Semantic release'
