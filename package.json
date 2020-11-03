@@ -8,7 +8,8 @@
   },
   "author": "Anhar Athoi",
   "license": "ISC",
-  "plugins": [
-    "semantic-release-ado"
-  ]
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
